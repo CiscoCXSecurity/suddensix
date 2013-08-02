@@ -24,4 +24,4 @@ Execute the `suddensix.sh` script as the root user.  The script will prompt you 
 
 *Note:*  The script is not persistent.  The script will not work on fully configured IPv6 networks.  
 
-For more information check out the [Neohapsis Blog}(http://labs.neohapsis.com/2013/07/30/picking-up-the-slaac-with-sudden-six/)
+For more information check out the [Neohapsis Blog](http://labs.neohapsis.com/2013/07/30/picking-up-the-slaac-with-sudden-six/)
