@@ -16,12 +16,27 @@ The script installs and configures the following packages:
 
 **Requirements**
 
-This script has been tested on Ubuntu 12.4 LTS and Kali Linux 1.0.x
+This script has been tested on Ubuntu 12.4 LTS and Kali Linux 1.0.x.  We suggest using [Wireshark](http://http://www.wireshark.org/) to view the intercepted traffic.
 
 **Usage**
 
 Execute the `suddensix.sh` script as the root user.  The script will prompt you for the interface to conduct the attack from as well as ask you to specificy a free IP address on the local network you are attacking.  
+After the script is running, run Wireshark to view the intercepted traffic.  
 
 *Note:*  The script is not persistent.  The script will not work on fully configured IPv6 networks.  
 
 For more information check out the [Neohapsis Blog](http://labs.neohapsis.com/2013/07/30/picking-up-the-slaac-with-sudden-six/)
+
+**TODO**
+
+We need help getting the following finished:
+
+* A way to specify MITM target scope
+* Automate basic network reconnaissance
+* Detect IPv6 countermeasures
+* Configure IPv6 tunneling
+* Leverage THC-IPv6 tools
+* More platforms
+
+If you are intersted in helping, fork the project and submit a pull request with your additions!
+
