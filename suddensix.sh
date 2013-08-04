@@ -1,21 +1,7 @@
 #!/bin/bash
 PATH="/usr/bin:/usr/sbin:/bin:/sbin"
 #
-# Unpublished Proprietary Source Code
-# Copyright (C) 2013 Neohapsis, Inc.
-# All rights reserved
-#
-# Unlicensed copying, use, publication, or redistribution is prohibited.
-#
-# No warranty, express or implied, is attached to this software,
-# There is NO WARRANTY OF MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.  You have been warned.
-#
-# surpriseSix.sh
-###
 # IPv6 MITM Setup Script
-# 20130712 Fix for radvd service on Kali
-# 20130321 First version for neo - bb < brent DOT bandelgar AT neohapsis DOT com >
 # This script will install dependencies and configure the system for IPv6 infrastructure
 # Written for plain Ubuntu 12.04 LTS, might work on Debian 6 or Kali with minor adjustments
 # Run me as root!
