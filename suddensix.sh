@@ -207,7 +207,7 @@ function isPkgInstalled {
 }
 #Install packages, these should all be in the standard Ubuntu repos
 function installPrereqDpkgs {
-    /usr/bin/apt-get install -y sipcalc tayga radvd wide-dhcpv6-server bind9
+    /usr/bin/apt-get install -y sipcalc tayga radvd wide-dhcpv6-server bind9 iptables
 }
 #Set up Taya interface, IP addresses and routes, and and start Tayga
 function startTayga {
